@@ -15,7 +15,7 @@ parts:
     - file: unit-4/software-development-cycle
   - caption: Programming
     chapters:
-    - file: unit-4/simple-data-types
+    - file: unit-4/datatypes
     - file: unit-4/complex-data-types
     - file: unit-4/programming-concepts
       sections:
@@ -28,6 +28,20 @@ parts:
       - file: unit-4/modularisation
       - file: unit-4/functions
       - file: unit-4/scope
+    - file: unit-4/code-sources
+    - file: unit-4/program-errors
+      sections:
+      - file: unit-4/syntax-errors
+      - file: unit-4/runtime-errors
+      - file: unit-4/logical-errors
+    - file: unit-4/documentation
+    - file: unit-4/dev-documentation
+    - file: unit-4/trace-tables
+    - file: unit-4/data-validation
+      sections:
+      - file: unit-4/range-checking
+      - file: unit-4/type-checking
+
   - caption: Miscellaneous
     chapters:
     - file: markdown

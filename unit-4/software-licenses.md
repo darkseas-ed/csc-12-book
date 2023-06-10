@@ -1,4 +1,4 @@
-# Software Licenses
+# Software Development - Licence Agreements
 
 Software licenses are legal agreements between the owner or distributor of a
 software product and the end user. They outline the terms and conditions under
@@ -8,6 +8,25 @@ of the software.
 
 Further information
 [here](https://www.bbc.co.uk/bitesize/guides/zhx26yc/revision/11)
+
+License agreement
+: is the right to use software.
+
+That is, you do not own the software. The most common type of license included
+with software purchased by individual users is a single-user license agreement,
+also called an end-user license agreement (EULA). The license agreement provides
+specific conditions for use Of the software, which a user must accept before
+using the software. These terms usually are displayed when you install the
+software.
+
+
+```{figure} ../images/single-user-eula-cropped.png
+---
+height: 300px
+name: single-eula
+---
+Single User EULA
+```
 
 (network-licenses)=
 ## Network Licenses
