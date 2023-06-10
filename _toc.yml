@@ -3,8 +3,23 @@
 
 format: jb-book
 root: intro
-chapters:
-- file: markdown
-- file: notebooks
-- file: markdown-notebooks
-- file: software-licenses
+parts:
+  - caption: Developing software
+    chapters:
+    - file: unit-4/software-licenses
+    - file: unit-4/development-factors
+      sections:
+      - file: unit-4/professional-ethics
+      - file: unit-4/legal-obligations
+      - file: unit-4/legal-responsibilities
+    - file: unit-4/software-development-cycle
+  - caption: Programming
+    chapters:
+      - file: unit-4/data-types
+  - caption: Miscellaneous
+    chapters:
+    - file: markdown
+    - file: notebooks
+    - file: markdown-notebooks
+
+
