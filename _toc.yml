@@ -15,7 +15,19 @@ parts:
     - file: unit-4/software-development-cycle
   - caption: Programming
     chapters:
-      - file: unit-4/data-types
+    - file: unit-4/simple-data-types
+    - file: unit-4/complex-data-types
+    - file: unit-4/programming-concepts
+      sections:
+      - file: unit-4/constants
+      - file: unit-4/variables
+      - file: unit-4/naming-conventions
+      - file: unit-4/control-structures
+      - file: unit-4/stubs
+      - file: unit-4/statements
+      - file: unit-4/modularisation
+      - file: unit-4/functions
+      - file: unit-4/scope
   - caption: Miscellaneous
     chapters:
     - file: markdown
