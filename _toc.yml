@@ -4,7 +4,56 @@
 format: jb-book
 root: intro
 parts:
-  - caption: Developing software
+  - caption: "Unit 1: Programming"
+    chapters:
+    - file: unit-1/number-representation
+    - file: unit-1/control-structures
+      sections:
+      - file: unit-1/sequence
+      - file: unit-1/selection
+      - file: unit-1/iteration
+  - caption: "Unit 2: Cybersecurity Ethics and Law"
+    chapters:
+    - file: unit-2/ethical-hacking
+
+  - caption: "Unit 2: Network Security"
+    chapters:
+    - file: unit-2/authentication
+      sections:
+      - file: unit-2/strong-passwords
+      - file: unit-2/password-policies
+      - file: unit-2/policy-impact
+      - file: unit-2/two-factor
+      - file: unit-2/biometrics
+    - file: unit-2/encryption
+      sections:
+      - file: unit-2/encryption-purpose
+      - file: unit-2/public-vs-private
+
+  - caption: "Unit 2: Network Threats"
+    chapters:
+    - file: unit-2/methods-of-compromise
+      sections:
+      - file: unit-2/social-engineering
+      - file: unit-2/denial-of-service
+      - file: unit-2/back-door
+      - file: unit-2/ip-spoofing
+      - file: unit-2/sql-injection
+      - file: unit-2/man-in-the-middle
+      - file: unit-2/cross-site-scripting
+      - file: unit-2/types-of-malware
+      - file: unit-2/physical-threats
+      - file: unit-2/zero-day
+
+  - caption: "Unit 3: Systems analysis and development"
+    chapters:
+    - file: unit-3/development-methodologies.md
+
+  - caption: "Unit 3: Managing data"
+    chapters:
+    - file: unit-3/physical-storage.md
+
+  - caption: "Unit 4: Developing software"
     chapters:
     - file: unit-4/software-licenses
     - file: unit-4/development-factors
@@ -14,9 +63,11 @@ parts:
       - file: unit-4/legal-obligations
       - file: unit-4/legal-responsibilities
     - file: unit-4/software-development-cycle
+
   - caption: Programming
     chapters:
-    - file: unit-4/datatypes
+    - file: unit-4/simple-datatypes
+    - file: unit-4/notebooks/simple-datatypes
     - file: unit-4/complex-data-types
     - file: unit-4/programming-concepts
       sections:
