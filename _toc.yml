@@ -8,6 +8,7 @@ parts:
     chapters:
     - file: unit-4/software-licenses
     - file: unit-4/development-factors
+    - file: unit-4/ethics
       sections:
       - file: unit-4/professional-ethics
       - file: unit-4/legal-obligations
